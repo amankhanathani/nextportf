@@ -63,7 +63,7 @@ export default function Hello() {
           <div className='img'><img src='img/patternpad.svg' alt='pattern'></img> </div>
         </div>
         <div className='connect'>
-          <h1>Connect</h1>
+          <h1>Connect w/ Me</h1>
           <ul>
             <li> <a href={user.social.github} target='_blank' rel="noreferrer"><i class="fab fa-github"></i> </a></li>
             <li> <a href={user.social.linkedin} target='_blank' rel="noreferrer"><i class="fab fa-linkedin"></i></a></li>
@@ -77,7 +77,7 @@ export default function Hello() {
             {/*    <label for="name"></label> <input id='name' name="name" type="text" name="name" required placeholder='Name'/>
         <label for="email"></label><input type="email" id="email" name="email"required placeholder='Email' />
         <label for="message"></label><textarea name='message' placeholder='Message'></textarea> */}
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" required />
             <label for="email">Email</label>
             <input type="email" id="email" name="email" inputmode="email" required />
@@ -92,7 +92,7 @@ export default function Hello() {
         </div>
         <section className="clip"/>
          <div className='projects'>
-          <p><h1>Projects</h1></p>
+          <p><h1>Projects & Experience</h1></p>
            <ul>{g}</ul>
 
         </div> 
